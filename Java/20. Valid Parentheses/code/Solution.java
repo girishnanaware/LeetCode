@@ -1,3 +1,6 @@
+import java.util.Map;
+import java.util.Stack;
+
 class Solution {
     public boolean isValid(String s) {
 
@@ -18,7 +21,6 @@ class Solution {
 
             }
         }
-
 
         return stack.isEmpty();
 

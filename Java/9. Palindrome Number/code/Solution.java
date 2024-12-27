@@ -11,7 +11,7 @@ class Solution {
         }
 
         while (x > 0) {
-            sum = (sum * 10) + x%10;
+            sum = (sum * 10) + x % 10;
             x = x / 10;
         }
         return sum == orgNum;
